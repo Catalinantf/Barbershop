@@ -1,0 +1,38 @@
+.pagination {
+    padding: 1.5rem 0;
+    background-color: $light-gray;
+    margin-bottom: 0;
+    .texto-dentro{
+        color: $eerie-black;
+    }
+    .texto-fuera{
+        color: $nickel;
+    }
+
+
+    li a:hover {
+        background-color: $nickel;
+        border-color: $nickel;
+        color: $white;
+    }
+
+    li a:focus {
+        background-color: $eerie-black;
+        border-color: $eerie-black;
+        color: $white;
+    }
+
+    @media (min-width: 1px) and (max-width: 767px) {
+        font-size: $small;
+    }
+}
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-top-left-radius: 15rem;
+    border-bottom-left-radius: 15rem;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 15rem;
+    border-bottom-right-radius: 15rem;
+}

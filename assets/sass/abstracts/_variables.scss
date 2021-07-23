@@ -1,0 +1,39 @@
+// Color Scheme
+
+//First color scheme
+$white: #FFF;
+$platinum: #E6E7E7;
+$light-gray: #D1D1D1;
+
+//Second color scheme
+$fuzzy-wuzzy: #E56353;
+$ruddy-pink: #D76C69;
+$spanish-pink: #ECBCBA;
+
+//Third color scheme
+$eerie-black: #121619;
+$raisin-black:#222323;
+$nickel: #6C6E70;
+
+//bootstrap custom color
+$theme-colors: (
+  "dark": $eerie-black,
+  "secondary": $nickel,
+);
+
+// Font Family
+$playfair: 'Playfair Display', serif;
+$roboto: 'Roboto', sans-serif;
+
+// Font Weight
+$regular: 400;
+$font-light: 300;
+$bold: 700;
+$italic-black:ital 900;
+
+//Font Sizes
+$xx-large: 70px;
+$x-large: 30px;
+$large: 18px;
+$medium: 16px;
+$small: 12px;
